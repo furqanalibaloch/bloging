@@ -1,0 +1,91 @@
+.myblogs {
+    width: 100% ;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    /* margin: auto; */
+    /* margin-left: 30% !important; */
+}
+
+.myblogs_div {
+    position: absolute;
+    top: 90%;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.heading_my_blog {
+
+    font-size: 40px;
+    margin: auto ;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+
+/* edit blog btn  */
+.edit {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+}
+
+.edit svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.edit span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.edit:hover svg {
+    transform: translateX(5px) rotate(90deg);
+}
+
+.edit:hover span {
+    transform: translateX(7px);
+}
+
+
+
+/*  */
+.referral-heading-container {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin: auto !important;
+    /* margin-left: 30% !important; */
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.thin-line-left {
+    flex: 1;
+    height: 1.0px;
+    background: linear-gradient(to right, transparent, hsl(2, 98%, 60%));
+    /* Adjust gradient colors as needed */
+}
+
+.thin-line-right {
+    flex: 1;
+    height: 1.0px;
+    background: linear-gradient(to left, transparent, hsl(2, 98%, 60%));
+    /* Adjust gradient colors as needed */
+}
+
+.referral-heading {
+    margin: 0 20px;
+    font-family: PoppinsBold;
+}
